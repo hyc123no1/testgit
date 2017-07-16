@@ -1,0 +1,97 @@
+将所有修改过的文件加入暂存区
+#git add -u
+无须变更列表，直接将登记在暂存区中的内容提交
+#git commit
+
+#git pull mirror master
+#git push home
+
+git版本库初始化
+#git init
+添加文件并提交
+#git add -A
+#git commit -m "initialized"
+为初始提交建立一个里程碑："v1"
+#git tag v1
+开始在工作区中工作--修改文件并提交
+#git commit -a
+
+修改提交说明
+#git commit -amend
+
+删除误提交的文件
+#git rm --cached winxp.img
+#git commit --amend
+变基操作
+#git rebase -i <commit-id>^
+
+正确的版本控制系统，一次只干一件事
+
+可以显示修改后的差异
+#git diff
+暂存区中显示修改后的差异
+#git diff --cached
+
+保存工作进度
+#git stash
+#git checkout <newbranch>
+#git checkout <orignal_branch>
+#git stash pop
+ 
+
+配置变量，用户主目录下.gitconfig或/etc/gitconfig 
+#git config --global user.name "hyc"
+#git config --global user.email hyc...
+
+对所有用户设置别名
+#git config --system alias.st status
+
+只在本用户的全局配置中添加别名
+$git config --global alias.st status
+在git命令输出中开启颜色显示
+$git config --global color.ui true
+
+$cd /path/to/my/workspace
+$git init demo
+$cd demo
+隐藏工作目录.git，就是git的版本库（repository）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
