@@ -1,0 +1,36 @@
+Git Quick Reference Guide
+Create directory:
+Local system:
+cd ~/directory name
+git init
+git add .  or,
+git add ­­all
+
+Existing Repo:
+git clone​​ <link> 
+
+Check status:
+git status​​ ­ show file changed.
+git diff​​ ​­ show difference in file changed. 
+git log​​ ­ show the log files.
+ 
+Branch:
+git branch <branch name>​​ : show the current branch you are in.
+git checkout ­b <branchname>​​ ­ create new branch and switch to it.
+git checkout <branchname>​​  ­  switch branch.
+git checkout ­d <branchname>​​ ­ delete branch. 
+
+Reverting changes:
+git revert <commit id>​​ ­ revert that particular commit.
+git revert ­­hard​​ ­ revert all commit. 
+git revert  ^HEAD​​­ revert the last change.
+git commit ­­amend​​ : fix the last commit.
+
+Publish your changes:
+git commit ­a​​ or
+git commit ­m “Update”​​ :commit you local changes.
+git push ­u origin master/branch name​​ : push changes to your repo
+git format patch origin​​ : for other developers
+
+Need help:
+git ­­help
