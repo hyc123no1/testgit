@@ -85,6 +85,11 @@ $cd demo
 用暂存区刷新工作区
 #git checkout .
 
+保存当前工作进度
+#git stash
+
+#git log -l --pretty=online
+
 
 
 
