@@ -68,6 +68,18 @@ $cd demo
 显示从当前目录后退到工作区的根的深度
 #git rev-parse --show-cdup
 
+#git status -s 
+#git status
+#git log --stat
+
+
+#git diff 
+#git diff HEAD
+#git diff --cached
+
+
+
+
 
 
 
