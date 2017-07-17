@@ -56,6 +56,18 @@ $git init demo
 $cd demo
 隐藏工作目录.git，就是git的版本库（repository）
 
+#git commit -m "initialized."
+-m：说明
+
+显示版本库.git 目录所在的位置
+#git rev-parse --git-dir
+显示工作区根目录
+#git rev-parse --show-toplevel
+相对于工作区根目录的相对目录
+#git rev-parse --show-prefix
+显示从当前目录后退到工作区的根的深度
+#git rev-parse --show-cdup
+
 
 
 
