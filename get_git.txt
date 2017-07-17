@@ -94,6 +94,12 @@ $cd demo
 git访问
 
 git重置
+#git reset     
+#git reset HEAD  撤销git add 更新到暂存区的内容
+
+#git reset -- filename 
+#git reset -- HEAD filename  仅将文件filename的改动撤出暂存区
+
 #git reset --hard HEAD^
 #git reflog master
 #git reset --hard master@{1}
