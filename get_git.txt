@@ -88,7 +88,19 @@ $cd demo
 保存当前工作进度
 #git stash
 
-#git log -l --pretty=online
+#git log -l --pretty=oneline
+#git log --graph --oneline
+
+git访问
+
+git重置
+#git reset --hard HEAD^
+#git reflog master
+#git reset --hard master@{1}
+
+
+
+
 
 
 
