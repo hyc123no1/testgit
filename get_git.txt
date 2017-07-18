@@ -101,8 +101,13 @@ git重置
 #git reset -- HEAD filename  仅将文件filename的改动撤出暂存区
 
 #git reset --hard HEAD^
+彻底撤销最近的提交。引用，暂存区、工作区均回退到上一次提交状态。
 #git reflog master
 #git reset --hard master@{1}
+
+#git reset --soft HEAD^
+工作区和暂存区不改变，但是引用向前回退一次。当对最新提交的提交说明或提交的更改不满意时，撤销最新的提交以便重新提交。
+
 
 
 
